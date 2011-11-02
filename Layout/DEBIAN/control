@@ -1,0 +1,9 @@
+Package: com.n00neimp0rtant.xcon
+Name: xCon
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: n00neimp0rtant
+Author: n00neimp0rtant
+Section: Tweaks
