@@ -1,1 +1,12 @@
-{ Filter = { Bundles = ( "com.directv.mobile.ipad.nagivator.production" ); }; }
+{
+	Filter = {
+		Bundles = (
+			"com.bhn.simulcast",
+			"com.cablevision.rDVR",
+			"com.good.gmmiphone",
+			"com.idealbinary.rapunzel",
+			"com.verizon.ams.flexview",
+			"com.directv.mobile.ipad.nagivator.production",
+		);
+	};
+}
