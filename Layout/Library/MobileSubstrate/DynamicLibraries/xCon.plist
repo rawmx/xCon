@@ -1,6 +1,8 @@
 {
 	Filter = {
 		Bundles = (
+			"com.directv.mobile.iphone.nomad.production",
+			"com.lovefilm.ipad",
 			"com.bhn.simulcast",
 			"com.cablevision.rDVR",
 			"com.good.gmmiphone",

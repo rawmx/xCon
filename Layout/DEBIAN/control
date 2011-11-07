@@ -2,7 +2,7 @@ Package: com.n00neimp0rtant.xcon
 Name: xCon
 Depends: mobilesubstrate
 Conflicts: com.n00neimp0rtant.dtvpatch
-Version: 0.0.2
+Version: 0.0.3
 Architecture: iphoneos-arm
 Description: bypass jailbreak protection
 Maintainer: n00neimp0rtant
