@@ -24,5 +24,8 @@ WORKING:
 NOT YET WORKING:
 
 - Cablevision: not yet implemented
+- Cisco M-Learning: implemented but not committed
 - DirecTV Nomad: not yet implemented
-- Good For Enterprise: partially support
+- Golden Cinema: not yet implemented
+- Good For Enterprise: partial support
+- LOVEFiLM Player: not yet implemented
