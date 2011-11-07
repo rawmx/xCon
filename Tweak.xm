@@ -155,6 +155,17 @@
 }
 %end
 
+%hook TWCAppSettings
+-(BOOL)disable_jailbreak_detect
+{
+	return YES;
+}
+-(void)setDisable_jailbreak_detect:(BOOL)disable
+{
+	%orig(YES);
+}
+%end
+
 
 
 
