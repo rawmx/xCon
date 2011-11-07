@@ -1,3 +1,29 @@
+// Bloomberg Anywhere
+
+%hook CitrixApplicationDelegate
+-(void)checkTimeBomb
+{
+	// I don't know what this is, but I don't like it.
+	NSLog(@"Attempt to check time bomb caught and DENIED!!!!!");
+}
+-(BOOL)isJailbroken
+{
+	return NO;
+}
+%end
+
+%hook BBAAppDelegate
+-(BOOL)isJailbroken
+{
+	return NO;
+}
+%end
+
+
+
+
+
+
 // DirecTV iPad
 
 %hook DTVApplicationBase

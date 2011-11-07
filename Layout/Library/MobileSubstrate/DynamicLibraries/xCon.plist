@@ -1,6 +1,7 @@
 {
 	Filter = {
 		Bundles = (
+			"com.bloomberg.mobile.anywhere",
 			"com.timewarnercable.simulcast",
 			"com.directv.mobile.iphone.nomad.production",
 			"com.lovefilm.ipad",
