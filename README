@@ -8,12 +8,21 @@ Latest build: 0.0.5
 
 I am unable to test many of these apps myself, so you have to give me a thumbs-up or -down.
 
-- Bloomberg Anywhere: confirmed working
+
+
+WORKING:
+
+- Bloomberg Anywhere: confirmed
 - Bright House: appears to work, needs confirmed
-- Cablevision: not yet implemented
-- DirecTV iPad: confirmed working
-- DirecTV Nomad: not yet implemented
-- Good For Enterprise: partially working
+- DirecTV iPad: confirmed
 - Grimm Rapunzel 3D: appears to work, needs confirmed
-- Time Warner Cable: confirmed working
+- Time Warner Cable: confirmed
 - Verizon FiOS OnDemand: appears to work, needs confirmed
+
+
+
+NOT YET WORKING:
+
+- Cablevision: not yet implemented
+- DirecTV Nomad: not yet implemented
+- Good For Enterprise: partially support
