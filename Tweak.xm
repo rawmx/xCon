@@ -24,6 +24,29 @@
 
 
 
+// Cablevision
+
+%hook NSFileManager
+
+-(BOOL)fileExistsAtPath:(NSString*)path
+{
+	NSLog(@"checking if file exists at path: %@", path);
+	%orig;
+}
+
+-(BOOL)fileExistsAtPath:(NSString*)path isDirectory:(BOOL*)isDirectory
+{
+	NSLog(@"checking if folder exists at path %@," path);
+	%orig;
+}
+
+%end
+
+
+
+
+
+
 // DirecTV iPad
 
 %hook DTVApplicationBase
