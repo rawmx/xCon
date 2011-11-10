@@ -144,6 +144,18 @@
 	NSLog(@"leaving well enough alone for now.");
 	return original;
 }
+
++(BOOL)checkCompilianceEarlyViolated
+{
+	NSLog(@"Compliance violated early. Giving fake thumbs-up");
+	return NO;	
+}
+
++(BOOL)checkComplianceNewlyViolated
+{
+	NSLog(@"Compliance newly violated. Giving fake thumbs-up");
+	return NO;	
+}
 %end
 
 
